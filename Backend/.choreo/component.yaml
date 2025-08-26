@@ -13,3 +13,7 @@ dependencies:
     connectionReferences:
     - name: openai-connection
       resourceRef: thirdparty:openai/v1
+      dependencies:
+    connectionReferences:
+    - name: openai-connection
+      resourceRef: thirdparty:Open-Ai/v1  
