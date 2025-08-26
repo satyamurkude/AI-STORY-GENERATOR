@@ -9,6 +9,13 @@ endpoints:
     networkVisibilities:
       - Project
       - Public
+    authentication:
+      apiKey:
+        enabled: false
+        headerName: api-key
+      oauth2:
+        enabled: true
+        headerName: Authorization
 
 dependencies:
   connectionReferences:
