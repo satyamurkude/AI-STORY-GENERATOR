@@ -11,9 +11,6 @@ endpoints:
       - Public
 
 dependencies:
-  - name: openai-connection
-    resourceRef: thirdparty:openai/v1
-
-connectionReferences:
-  - name: openai-connection
-    resourceRef: thirdparty:openai/v1
+  connectionReferences:
+    - name: openai-connection
+      resourceRef: thirdparty:openai/v1
